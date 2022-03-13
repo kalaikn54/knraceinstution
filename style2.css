@@ -1,0 +1,116 @@
+body{margin: 0px;padding: 0px;box-sizing: border-box;}
+.nav-container{background-color:rgb(255, 255, 255);height: 15vh;background: center;}
+
+nav{background-color: crimson;width:95%;margin: auto;height: 100%;display: flex;justify-content: space-between;}
+.logo{height: 15vh;}
+.logo img {height:100%; clip-path: circle(); }
+  li {list-style-type:  none;}
+  a {text-decoration: none;color: black;}
+.nav-links{display: flex;align-items: center;justify-content: space-around; width:40%;}
+.nav-links li a:hover{color: cornsilk;}
+.nav-links li:hover{
+    transform:scale(1.5);transition-duration:  0.6s;
+}
+
+.arrow{height:5.5vh;width: 40px;transform: translateY(80%);display: none;}
+.line1,.line2,.line3{
+  height: 30%;width: 100%;background-color: rgb(255, 255, 253); margin-top: 2px;border-radius: 5px;
+}
+
+
+/*index-container*/
+.index-container{background-image:url(../responsive/wp2513844.jpg);background-position: center;height: 50rem;background-repeat: no-repeat;background-size:cover ;}
+
+.login{background-image:url(../responsive/wp2513894.jpg);background-position: center;
+  text-align:center ;height:50rem;background-repeat: no-repeat;background-size:cover ;overflow: hidden;}
+
+/*form*/
+.form input {padding: 10px;border-radius:10px ;}
+
+.content input {color:cornsilk;border-radius: 5px;padding: 7px;background-color: rgba(238, 16, 182, 0.473);}
+.submit input{padding: 7px;border-radius: 5px;color: rgb(255, 255, 255);background-color: rgb(65, 42, 165);}
+.account a{font-size:20px;color:rgb(51, 15, 255);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.account {margin-top:15px;}
+.h3{color: rgb(10, 10, 10);}
+.p{background-color: darkorange;height:30px}
+
+/*main page*/
+.banner{background-color: #fffdfd;height:1400px;width:80% ;text-align: center;
+   margin: auto;font-size:30px ; }
+    .flexbox1{display: flex; }
+.box1{height:400px;width:30% ;background-color: rgb(224, 224, 224);margin: auto;margin-top: 30px;
+ 
+   background-image: url(../responsive/chennai.jpg);background-repeat: no-repeat;background-size:cover;color: rgb(8, 8, 8);}
+   .box1 img{height:400px ;background-size:cover}
+   
+   
+   
+.box2{height:400px;width:30% ;background-color: rgb(253, 239, 239);margin: auto;margin-top: 30px;color: rgb(14, 12, 12);
+    background-image: url(../responsive/covai.jpg);background-repeat: no-repeat ;background-size:cover; }
+.box2 img{height:400px ;background-size:cover}
+
+
+
+.flexbox2{display: flex;}
+.box3{height:400px;width:30% ;background-color: burlywood;margin: auto;margin-top: 30px;color: rgb(5, 5, 5);
+    background-image: url(../responsive/pune.jpg);background-repeat: no-repeat ;background-size:cover;}
+   
+    .box3 img{height:400px ;background-size:cover;}
+
+.box4{height:400px;width:30% ;background-color: rgb(135, 222, 142);margin: auto;margin-top:30px;color: rgb(0, 0, 0);
+    background-image: url(../responsive/delhi.jpg);background-repeat: no-repeat ;background-size:cover;}
+    .box4 img{height:400px ;background-size:cover;} 
+
+.sub-container{background-color: rgb(20, 20, 19);height: 400px;color:whitesmoke;font-family: Arial, Helvetica, sans-serif;text-align:justify;font-size: small;}
+
+.font{background-color: rgb(221, 216, 215);height: 40px;}
+.footer{background-color: crimson;height:30px ;font-size:20px;margin-bottom: 10px;}
+
+/*service page*/
+
+   
+.scrollbar{background-color: rgb(83, 248, 61);height: 500px; background-image: url(../responsive/wp1898332.jpg);background-repeat: no-repeat ;background-size:cover;}
+.scroll2bar{background-color: black;}
+/*service page*/
+.banner1{background-color: #faf8f8;height:1000px;width:80% ;text-align: center;
+  margin: auto;font-size:30px ; }
+/*contact page*/
+.banner3{background-color: #ffffff;height:800px;width:80% ;
+  margin: auto;font-size:30px ; }
+  .mail{background-color: rgb(225, 122, 235);}
+.mail a{color: darkblue;font-size:20px;}
+.mail p{font-size: 20px;}
+.end{background-color: rgb(187, 255, 0);height:500px;background-image: url(../responsive/ktmw.jpg);background-repeat: no-repeat ;background-size:cover;text-align: center;}
+.welcome p {color: rgb(255, 166, 0); font-size:20px;}
+
+
+
+
+
+
+@media  screen and (max-width:840px){
+.nav-links{width: 60%;}
+    
+}
+
+
+
+
+
+
+
+
+@media  screen and (max-width:574px){
+    .nav-links{/*display: none;*/background-color: brown;position:fixed;top:15vh ;right: 0;flex-direction: column;height: 85vh;
+    width: 80%;transform: translateX(100%);transition-duration:  0.6s;}
+        .arrow{display: block;}
+    }
+    .display{
+      transform: translateX(0%);
+    }
+
+
+
+
+
+
